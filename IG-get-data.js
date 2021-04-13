@@ -1,7 +1,11 @@
-/* + Event: 'Page change (Interactive Grid)'
-   + Selection type: 'Region' 
-   + Region: 'The Interactive Grid you add to the page' */
-
+/* + Create IG region
+   + Set static id for IG region => my_ig
+   + Create Dynamic Action with this values:
+     + Event: 'Page change (Interactive Grid)'
+     + Selection type: 'Region' 
+     + Region: 'The Interactive Grid you add to the page'
+   + 
+ */
 
 var l_empno;
 // fetch the model for the interactive grid
