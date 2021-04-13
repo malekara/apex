@@ -3,9 +3,6 @@
    + Region: 'The Interactive Grid you add to the page' */
 
 
-
-
-
 var l_empno;
 // fetch the model for the interactive grid
 var model = apex.region("my_ig").widget().interactiveGrid("getViews", "grid").model;
